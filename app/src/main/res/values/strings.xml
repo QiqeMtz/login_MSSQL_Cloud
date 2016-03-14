@@ -2,4 +2,7 @@
     <string name="app_name">login_MSSQL_Cloud</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_add_products">AddProducts</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_countrylist">countrylist</string>
+    <string name="title_activity_countries2">Countries2</string>
 </resources>

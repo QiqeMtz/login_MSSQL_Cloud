@@ -27,7 +27,24 @@
             android:name=".AddProducts"
             android:label="@string/title_activity_add_products"
             android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".countrylist"
+            android:label="@string/title_activity_countrylist"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Countries2"
+            android:label="@string/title_activity_countries2"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>

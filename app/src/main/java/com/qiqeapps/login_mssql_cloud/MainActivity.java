@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
     public class DoLogin extends AsyncTask<String,String,String>
     {
         String z = "";
@@ -52,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             pbbar.setVisibility(View.GONE);
             Toast.makeText(MainActivity.this,r,Toast.LENGTH_SHORT).show();
             if(isSuccess) {
-                Intent i = new Intent(MainActivity.this, AddProducts.class);
+                Intent i = new Intent(MainActivity.this, MenuActivity.class);
                 startActivity(i);
                 finish();
             }
@@ -92,4 +93,6 @@ public class MainActivity extends AppCompatActivity {
             return z;
         }
     }
+
+
 }
